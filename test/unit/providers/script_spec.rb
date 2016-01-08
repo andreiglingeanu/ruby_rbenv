@@ -38,7 +38,7 @@ describe "rbenv_script provider" do
         cwd:            "/usr/dir",
         path:           ["/opt/bin"],
         returns:        [0, 255],
-        timeout:        600,
+        timeouts:        600,
         umask:          0221,
         environment:    environment
       )
@@ -71,7 +71,7 @@ describe "rbenv_script provider" do
         cwd:          nil,
         path:         nil,
         returns:      [0],
-        timeout:      nil,
+        timeouts:      nil,
         umask:        nil,
         environment:  environment
       )

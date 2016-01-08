@@ -44,7 +44,7 @@ def run_script
     group         new_resource.group    if new_resource.group
     path          new_resource.path     if new_resource.path
     returns       new_resource.returns  if new_resource.returns
-    timeout       new_resource.timeout  if new_resource.timeout
+    timeouts       new_resource.timeouts  if new_resource.timeouts
     umask         new_resource.umask    if new_resource.umask
     environment(script_environment)
   end

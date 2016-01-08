@@ -91,12 +91,12 @@ describe Chef::Resource::RbenvScript do
   end
 
   it "attribute timeout defaults to nil" do
-    expect(resource.timeout).to be_nil
+    expect(resource.timeouts).to be_nil
   end
 
   it "attribute timeout takes an Integer value" do
-    resource.timeout(123)
-    expect(resource.timeout).to eq(123)
+    resource.timeouts(123)
+    expect(resource.timeouts).to eq(123)
   end
 
   it "attribute user defaults to nil" do

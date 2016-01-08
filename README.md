@@ -572,7 +572,7 @@ notifies it.
       <td><code>0</code></td>
     </tr>
     <tr>
-      <td>timeout</td>
+      <td>timeouts</td>
       <td>
         How many seconds to let the command run before timing out.
       </td>
